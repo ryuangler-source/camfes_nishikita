@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start new festival website",
+      "type": "shell",
+      "command": "python3",
+      "args": [
+        "-m",
+        "http.server",
+        "8001",
+        "--bind",
+        "127.0.0.1"
+      ],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}
